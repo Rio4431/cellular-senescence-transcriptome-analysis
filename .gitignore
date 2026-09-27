@@ -1,0 +1,25 @@
+# Private input data
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.tsv
+data/*.parquet
+!data/README.md
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.conda/
+.env
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+~$*
+*.tmp
+*.log
