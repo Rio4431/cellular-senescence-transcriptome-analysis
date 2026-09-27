@@ -75,10 +75,10 @@ The final workflow preserves the original analysis definitions and checks the ex
 
 ## Results
 
-- 718 genes changed by at least two-fold between Normal and Senescence: 254 Up and 464 Down.
+- From 24,351 microarray probe sets, 718 genes showed at least a two-fold expression change between Normal and Senescence: 254 Up and 464 Down.
 - 330 of these genes moved closer to Normal after Treatment.
-- 181 genes moved closer to Normal and reached 0.5–2.0-fold of the Normal expression level.
-- 51 of the 181 candidates also changed by at least two-fold between Treatment and Senescence.
+- 181 genes were retained as recovery candidates after moving closer to Normal and reaching 0.5–2.0-fold of the Normal expression level.
+- Among them, 51 genes were classified as strong Treatment-response candidates because they also changed by at least two-fold between Treatment and Senescence.
 - GO Biological Process analysis identified 60 FDR < 0.05 terms among Senescence-Down genes and 4 among Senescence-Up genes.
 - No tested significant senescence GO term showed selective recovery at FDR < 0.05 after Treatment.
 
